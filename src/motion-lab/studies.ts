@@ -1,0 +1,80 @@
+import { laboralPlan } from "./laboral-plan.ts"
+export type StudyId = "enbu" | "blue-hour" | "editing-collage" | "brand-strategy" | "laboral-clothing"
+export const studies = [
+  {
+    id: "laboral-clothing" as const,
+    number: "05",
+    title: "LABORAL CLOTHING",
+    subtitle: "Viste lo que eres",
+    category: "PROMO HORIZONTAL / CONCEPTO EDITABLE",
+    description:
+      "Promoción en español, 18 s, 1920×1080 y 60 fps. Identidad monocroma y wordmark provisionales. Fotografías de apoyo: no son productos verificados de la empresa. Guion, música y SFX preparados; audio pendiente de generar.",
+    width: laboralPlan.width,
+    height: laboralPlan.height,
+    duration: laboralPlan.duration,
+    composition: "Study-LaboralClothing",
+    accent: "#eeeae2",
+    reference: "",
+    narration: laboralPlan.narration,
+    sfx: laboralPlan.sfx,
+    musicPrompt: laboralPlan.music,
+    url: laboralPlan.renderUrl,
+  },
+  {
+    id: "enbu" as const,
+    number: "01",
+    title: "ENBU",
+    subtitle: "La danza del fuego",
+    category: "CINEMATIC / PROCEDURAL",
+    description:
+      "Una katana dibuja la luz. Armadura articulada, estelas incandescentes y un sol que parece arder.",
+    width: 1920,
+    height: 1292,
+    duration: 18,
+    composition: "Study-Enbu",
+    accent: "#ffae64",
+    reference: "/references/enbu-original.mp4",
+    narration:
+      "Antes del movimiento, el silencio. Una chispa dibuja el filo. El fuego sigue al cuerpo, y el cuerpo encuentra su ritmo. Cada corte deja una huella. Después, todo vuelve a la calma.",
+    sfx: "Cinematic katana fire dance, soft roaring flames, three precise sword whooshes and tiny crackling embers, spacious, no music, no voices.",
+    url: "/exports/study-enbu.mp4",
+  },
+  {
+    id: "blue-hour" as const,
+    number: "02",
+    title: "BLUE HOUR",
+    subtitle: "Un lugar donde no pasa nada",
+    category: "ILLUSTRATION / LIVING LOOP",
+    description:
+      "El lago respira, la barca se mece y una hoja encuentra su sitio. Pequeños movimientos, todo un mundo.",
+    width: 1080,
+    height: 1920,
+    duration: 18,
+    composition: "Study-BlueHour",
+    accent: "#b9d8f5",
+    reference: "/references/blue-hour-original.mp4",
+    narration:
+      "Hoy no hace falta llegar a ninguna parte. Escucha el agua. Mira cómo se mueve la barca. Hasta una hoja sabe cuándo dejarse llevar. Respira. Por un momento, este pequeño mundo es suficiente.",
+    sfx: "Quiet moonlit lakeshore ambience, gentle small water ripples lapping on grass, subtle wooden rowboat creaks, soft rustling leaves, peaceful, no music, no speech.",
+    url: "/exports/study-blue-hour.mp4",
+  },
+  {
+    id: "brand-strategy" as const,
+    number: "04",
+    title: "BRAND STRATEGY",
+    subtitle: "No one tells you",
+    category: "EDITORIAL / SCULPTURE & TYPE",
+    description:
+      "Motion editorial con tipografía de contraste, luz de estudio y degradados vivos. Cámara con contenido animado, piezas de ajedrez independientes y un sistema editorial en movimiento. Full HD / 60 fps.",
+    width: 1080,
+    height: 1920,
+    duration: 17.5,
+    composition: "Study-BrandStrategy",
+    accent: "#ad444b",
+    reference: "/references/brand-strategy-original.mp4",
+    narration:
+      "Here's the branding secret no one tells you. A brand without a content strategy is just posting and hoping. Every piece of content should either attract new eyes, build trust with existing ones, or convert attention into action. Posting randomly does none of the three consistently.",
+    sfx: "Editorial Foley: 0-2.35s paper sweep; 2.35-5.85s wooden chess pieces slide and queen lands; 5.85-7.65s low impact and ticks; 7.65-11.9s camera shutter, focus and three clicks; 11.9-13.6s arrow swoosh; 13.6-16.3s editing clicks; 16.3-17.5s short logo impact.",
+    url: "/exports/study-brand-strategy.mp4",
+  },
+]

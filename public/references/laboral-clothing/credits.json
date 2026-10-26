@@ -1,0 +1,23 @@
+{
+  "purpose": "Imágenes de apoyo para un concepto provisional. No son productos verificados ni material oficial de Laboral Clothing.",
+  "photos": [
+    {
+      "file": "look-one.jpg",
+      "url": "https://images.unsplash.com/photo-1627130697816-4d71dbfe6a5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwY2xvdGhpbmclMjBzdHVkaW8lMjBuZXV0cmFsJTIwamFja2V0JTIwZmFzaGlvbnxlbnwxfHx8fDE3OTI2NjY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "author": "Ron McClenny",
+      "source": "Unsplash"
+    },
+    {
+      "file": "look-two.jpg",
+      "url": "https://images.unsplash.com/photo-1743764252813-386dedce1a8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw0fHxtaW5pbWFsJTIwY2xvdGhpbmclMjBzdHVkaW8lMjBuZXV0cmFsJTIwamFja2V0JTIwZmFzaGlvbnxlbnwxfHx8fDE3OTI2NjY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "author": "Morgane Leisser",
+      "source": "Unsplash"
+    },
+    {
+      "file": "fabric.jpg",
+      "url": "https://images.unsplash.com/photo-1715867125247-120c0fc4593b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw1fHxjbG90aGluZyUyMGZhYnJpYyUyMHRleHR1cmUlMjBjb3R0b24lMjBkZXRhaWwlMjBnYXJtZW50fGVufDF8fHx8MTc5MjY2NjQ4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "author": "Ksenia Pixelesse",
+      "source": "Unsplash"
+    }
+  ]
+}

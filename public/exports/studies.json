@@ -1,0 +1,222 @@
+{
+  "sourceHash": "5ead43fa0ebaa8c06060fe8e0e1daccb04fe16a8a44a11b78fa3f61fc058f1ed",
+  "status": "rendered-needs-visual-review",
+  "artifacts": [
+    {
+      "id": "enbu",
+      "url": "/exports/study-enbu.mp4",
+      "width": 1920,
+      "height": 1292,
+      "duration": 18,
+      "fps": 60,
+      "frames": 1080,
+      "bytes": 7280915,
+      "sha256": "e23b07ddd0bd9a77af34e4538551d69844cc4fb63fb1e4598835eb5a1dcd33a2",
+      "audio": "procedural-sfx-not-elevenlabs",
+      "voice": false,
+      "soundRmsDb": -23.32,
+      "soundPeakDb": -4.44,
+      "elapsedSeconds": 1813.997
+    },
+    {
+      "id": "blue-hour",
+      "url": "/exports/study-blue-hour.mp4",
+      "width": 1080,
+      "height": 1920,
+      "duration": 18,
+      "fps": 60,
+      "frames": 1080,
+      "bytes": 3215946,
+      "sha256": "d74cceae135868b1b71284f50cbe0bffd6f2d2d88dae82e54697f51dda7665fc",
+      "audio": "procedural-sfx-not-elevenlabs",
+      "voice": false,
+      "soundRmsDb": -21.67,
+      "soundPeakDb": -6.4,
+      "elapsedSeconds": 86.042
+    },
+    {
+      "id": "editing-collage",
+      "url": "/exports/study-editing-collage.mp4",
+      "width": 1080,
+      "height": 1920,
+      "duration": 18.216667,
+      "fps": 60,
+      "frames": 1093,
+      "bytes": 6117330,
+      "sha256": "ecab09d5da47b165eee2349e9beda1b8de4d04ddb50d946b47649f34f28b3604",
+      "audio": "none-new-voice-optional",
+      "voice": false,
+      "reconstruction": "v3-live-procedural-webgl-and-original-vectors-CC0-sculpture-geometry",
+      "outro": "held-through-final-frame"
+    },
+    {
+      "id": "brand-strategy",
+      "url": "/exports/study-brand-strategy.mp4",
+      "width": 1080,
+      "height": 1920,
+      "duration": 17.5,
+      "fps": 60,
+      "frames": 1050,
+      "bytes": 7975183,
+      "sha256": "cc226eb4f355652f3cc26341b3d61d2312ebf3073dc6dacdf95973bb9d3c0f7a",
+      "audio": "none-new-voice-optional",
+      "voice": false,
+      "reconstruction": "v4-living-motion-editorial-original-vector-devices-CC0-sculpture-render",
+      "visualApproval": false,
+      "minimumSceneScore": 9
+    },
+    {
+      "id": "laboral-clothing",
+      "url": "/exports/study-laboral-clothing-v2.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 18,
+      "fps": 60,
+      "frames": 1080,
+      "bytes": 5632099,
+      "sha256": "9d9165b8fccb164ea8e915f4bb1cb8b75e0af6bf9fd532142e65d1493f4c3e16",
+      "voice": false,
+      "audio": "none-music-and-sfx-prepared-not-generated",
+      "identityStatus": "logo-provided",
+      "visualApproval": false,
+      "reconstruction": "editable-workwear-commercial-with-licensed-footage"
+    }
+  ],
+  "qa": [
+    {
+      "id": "enbu",
+      "technical": "passed",
+      "visual": "pending",
+      "samples": [
+        {
+          "frame": 0,
+          "time": 0,
+          "url": "/exports/studies-qa/enbu-0.png",
+          "visualReview": "pending"
+        },
+        {
+          "frame": 150,
+          "time": 2.5,
+          "url": "/exports/studies-qa/enbu-150.png",
+          "visualReview": "pending"
+        },
+        {
+          "frame": 330,
+          "time": 5.5,
+          "url": "/exports/studies-qa/enbu-330.png",
+          "visualReview": "pending"
+        },
+        {
+          "frame": 540,
+          "time": 9,
+          "url": "/exports/studies-qa/enbu-540.png",
+          "visualReview": "pending"
+        },
+        {
+          "frame": 660,
+          "time": 11,
+          "url": "/exports/studies-qa/enbu-660.png",
+          "visualReview": "pending"
+        },
+        {
+          "frame": 870,
+          "time": 14.5,
+          "url": "/exports/studies-qa/enbu-870.png",
+          "visualReview": "pending"
+        },
+        {
+          "frame": 1079,
+          "time": 17.983333333333334,
+          "url": "/exports/studies-qa/enbu-1079.png",
+          "visualReview": "pending"
+        }
+      ]
+    },
+    {
+      "id": "blue-hour",
+      "technical": "passed",
+      "visual": "pending",
+      "samples": [
+        {
+          "frame": 0,
+          "time": 0,
+          "url": "/exports/studies-qa/blue-hour-0.png",
+          "visualReview": "pending"
+        },
+        {
+          "frame": 150,
+          "time": 2.5,
+          "url": "/exports/studies-qa/blue-hour-150.png",
+          "visualReview": "pending"
+        },
+        {
+          "frame": 330,
+          "time": 5.5,
+          "url": "/exports/studies-qa/blue-hour-330.png",
+          "visualReview": "pending"
+        },
+        {
+          "frame": 540,
+          "time": 9,
+          "url": "/exports/studies-qa/blue-hour-540.png",
+          "visualReview": "pending"
+        },
+        {
+          "frame": 660,
+          "time": 11,
+          "url": "/exports/studies-qa/blue-hour-660.png",
+          "visualReview": "pending"
+        },
+        {
+          "frame": 870,
+          "time": 14.5,
+          "url": "/exports/studies-qa/blue-hour-870.png",
+          "visualReview": "pending"
+        },
+        {
+          "frame": 1079,
+          "time": 17.983333333333334,
+          "url": "/exports/studies-qa/blue-hour-1079.png",
+          "visualReview": "pending"
+        }
+      ]
+    },
+    {
+      "id": "laboral-clothing",
+      "technical": "passed",
+      "visual": "pending-review",
+      "samples": [
+        {
+          "time": 1.6,
+          "frame": 96,
+          "url": "/exports/studies-qa/laboral-clothing-0.png",
+          "visualReview": "pending"
+        },
+        {
+          "time": 4.9,
+          "frame": 294,
+          "url": "/exports/studies-qa/laboral-clothing-1.png",
+          "visualReview": "pending"
+        },
+        {
+          "time": 8.6,
+          "frame": 516,
+          "url": "/exports/studies-qa/laboral-clothing-2.png",
+          "visualReview": "pending"
+        },
+        {
+          "time": 12.7,
+          "frame": 762,
+          "url": "/exports/studies-qa/laboral-clothing-3.png",
+          "visualReview": "pending"
+        },
+        {
+          "time": 16.6,
+          "frame": 996,
+          "url": "/exports/studies-qa/laboral-clothing-4.png",
+          "visualReview": "pending"
+        }
+      ]
+    }
+  ]
+}

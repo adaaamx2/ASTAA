@@ -1,0 +1,127 @@
+{
+  "status": "rendered-needs-review",
+  "audio": "none",
+  "timing": "estimated",
+  "spec": {
+    "engine": "finn-animatic-2",
+    "scenes": [
+      {
+        "id": 1,
+        "title": "Una frase. Todo empieza.",
+        "start": 0,
+        "end": 3,
+        "voice": "Escribes una frase, y pasa esto.",
+        "visual": "Finn ante un teclado gigante. Escribe «¿Por qué el cielo es azul?». Enter y zoom dentro de la pantalla."
+      },
+      {
+        "id": 2,
+        "title": "Tokens, no palabras.",
+        "start": 3,
+        "end": 10,
+        "voice": "Primero, tu frase se corta en trocitos llamados tokens: palabras, sílabas o incluso signos.",
+        "visual": "La frase se corta en bloques. Una palabra se divide en dos: token no equivale a palabra."
+      },
+      {
+        "id": 3,
+        "title": "Un mapa de significado.",
+        "start": 10,
+        "end": 18,
+        "voice": "Cada trocito se convierte en números. Son como coordenadas: las palabras con significado parecido quedan cerca.",
+        "visual": "Bloques → números → puntos en un mapa 3D. Perro y gato cerca, coche lejos. Finn señala; cámara orbital."
+      },
+      {
+        "id": 4,
+        "title": "Todo está conectado.",
+        "start": 18,
+        "end": 29,
+        "voice": "Después llega la atención. La IA mira todas las palabras a la vez y decide cuáles están relacionadas. Así capta el contexto.",
+        "visual": "Conexiones de grosor variable. Finn usa una lupa. Sobre el segundo 24, se revelan decenas de capas."
+      },
+      {
+        "id": 5,
+        "title": "El secreto.",
+        "start": 29,
+        "end": 40,
+        "voice": "Y ahora, el secreto. No escribe la respuesta entera: solo calcula cuál es la siguiente pieza más probable. Elige una, la añade… y repite.",
+        "visual": "Barras de probabilidad, selección y pieza que vuela a la respuesta."
+      },
+      {
+        "id": 6,
+        "title": "Una y otra vez.",
+        "start": 40,
+        "end": 48,
+        "voice": "Pieza a pieza, cientos de veces, en un centro de datos lleno de chips, hasta que aparece tu respuesta.",
+        "visual": "Smash cuts, respuesta pieza a pieza. Retroceso a un centro de datos."
+      },
+      {
+        "id": 7,
+        "title": "Y vuelve a empezar…",
+        "start": 48,
+        "end": 57,
+        "voice": "Así que ya lo sabes: no piensa como tú, apuesta. Sígueme para ver qué más pasa por dentro. Y todo vuelve a empezar cada vez que…",
+        "visual": "Finn mira a cámara, gesto cómplice y CTA. Vuelta exacta a la composición inicial para el loop."
+      }
+    ],
+    "accent": "#c3ef67",
+    "subtitleSize": 42
+  },
+  "variants": [
+    {
+      "pack": "pop",
+      "width": 1080,
+      "height": 1920,
+      "fps": 60,
+      "duration": 57,
+      "frames": 3420,
+      "audio": "none",
+      "bytes": 11785897,
+      "sha256": "e727ebca11d547de77a65214f3b4db0703003cf864e3de0314dcafe7fa670940",
+      "url": "/exports/finn-pop-animatic-1080.mp4",
+      "elapsedSeconds": 4.845,
+      "qa": "technical-pass-visual-review-pending"
+    },
+    {
+      "pack": "karaoke",
+      "width": 1080,
+      "height": 1920,
+      "fps": 60,
+      "duration": 57,
+      "frames": 3420,
+      "audio": "none",
+      "bytes": 11769168,
+      "sha256": "b94a3710bc175cb09ec862651ba614f8df7f39ccdd67ea56242371930d3a3781",
+      "url": "/exports/finn-karaoke-animatic-1080.mp4",
+      "elapsedSeconds": 192.959,
+      "qa": "technical-pass-visual-review-pending"
+    },
+    {
+      "pack": "kinetic",
+      "width": 1080,
+      "height": 1920,
+      "fps": 60,
+      "duration": 57,
+      "frames": 3420,
+      "audio": "none",
+      "bytes": 12499234,
+      "sha256": "f8417110765299928b5d83516f83d5f8fa417a015c83e9a5bd04e01ab859b7e6",
+      "url": "/exports/finn-kinetic-animatic-1080.mp4",
+      "elapsedSeconds": 184.011,
+      "qa": "technical-pass-visual-review-pending"
+    },
+    {
+      "pack": "comic",
+      "width": 1080,
+      "height": 1920,
+      "fps": 60,
+      "duration": 57,
+      "frames": 3420,
+      "audio": "none",
+      "bytes": 13531936,
+      "sha256": "45ead00d39894a25890ff72ff1d455c7d3a9ab041611b5c3019b4678b2754a3a",
+      "url": "/exports/finn-comic-animatic-1080.mp4",
+      "elapsedSeconds": 183.262,
+      "qa": "technical-pass-visual-review-pending"
+    }
+  ],
+  "completedAt": "2026-10-17T01:39:57.454Z"
+}

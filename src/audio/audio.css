@@ -1,0 +1,70 @@
+.audio-mixer{display:grid;gap:1em;margin-block:2em}
+.audio-strip{display:flex;align-items:center;gap:1em;flex-wrap:wrap;border-block-end:1px solid var(--ml-line);padding-block:1em}
+.audio-strip>strong{min-width:4em;color:var(--ml-accent)}
+.audio-wave{flex:1;min-width:10em;max-width:100%;height:3em;color:var(--ml-accent)}
+.audio-strip label{font-size:small;color:var(--ml-muted)}
+.audio-strip input[type=range]{max-width:9em;accent-color:var(--ml-accent)}
+.audio-strip button[aria-pressed=true]{background:var(--ml-accent);color:var(--ml-ink)}
+.audio-status{display:flex;gap:1em;flex-wrap:wrap;font-size:small;margin-block:1em;color:var(--ml-muted)}
+.audio-status strong{color:var(--ml-accent)}
+.audio-status[data-ready=false] strong{color:var(--ml-text)}
+.audio-event{border-block-end:1px solid var(--ml-line);padding-block:1em;display:flex;gap:1em;flex-wrap:wrap;align-items:center}
+.audio-event .ml-field{flex-basis:100%}
+.audio-event input[type=number]{max-width:6em;background:var(--ml-soft);color:var(--ml-text)}
+.wg-files>details{margin-block:1em}
+
+.sound-studio{--sound-space:.75em;font-size:14px;line-height:1.6}
+.sound-studio .sound-heading{display:flex;align-items:center;justify-content:space-between;gap:calc(var(--sound-space)*2);margin-block-end:calc(var(--sound-space)*2)}
+.sound-studio .sound-heading h3{font-size:2em;letter-spacing:-.04em;font-weight:500;margin:0;color:var(--ml-text)}
+.sound-studio .sound-heading p{margin:.4em 0;color:var(--ml-muted)}
+.sound-studio .sound-heading .ml-kicker{color:var(--ml-accent);font-size:.72em;letter-spacing:.14em}
+.sound-studio .sound-duration{white-space:nowrap;font-variant-numeric:tabular-nums;border:1px solid var(--ml-line);border-radius:2em;padding:.5em 1em}
+.sound-layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:calc(var(--sound-space)*2);align-items:start}
+.sound-card{min-width:0;background:var(--ml-panel);border:1px solid var(--ml-line);border-radius:1em;padding:calc(var(--sound-space)*2)}
+.sound-step{display:flex;align-items:center;gap:var(--sound-space);margin-block-end:1.25em}
+.sound-step>strong{display:grid;place-items:center;width:2em;height:2em;border:1px solid var(--ml-line);border-radius:50%;font-size:.85em;color:var(--ml-accent)}
+.sound-preview{margin-block-end:1.5em}
+.sound-preview>p{color:var(--ml-accent);font-size:.85em}
+.sound-preview video{display:block;width:100%;max-height:22em;object-fit:contain;background:var(--ml-bg);border-radius:.65em}
+.sound-studio .sound-step h3{margin:0;font-size:1.15em;letter-spacing:-.02em}
+.sound-studio p{font-size:inherit}
+.sound-studio .sound-hint,.sound-studio .sound-sample p{font-size:.85em;color:var(--ml-muted);line-height:1.7}
+.sound-tabs{display:flex;gap:.4em;padding:.35em;background:var(--ml-bg);border-radius:.7em;margin-block-end:1.5em}
+.sound-studio .ml-button{font-size:.85em;min-height:2.9em;gap:.5em;padding:.65em 1em;border-radius:.55em;white-space:normal}
+.sound-tabs .ml-button{flex:1;border-color:transparent;background:transparent;color:var(--ml-muted)}
+.sound-tabs .ml-button[aria-pressed=true]{background:var(--ml-soft);border-color:var(--ml-line);color:var(--ml-accent)}
+.sound-field{display:flex;flex-direction:column;gap:.5em;min-width:0;flex:1;margin-block:.85em}
+.sound-field>span{font-size:.85em;color:var(--ml-muted)}
+.sound-studio .sound-field :is(input:not([type=checkbox]):not([type=range]),textarea,select){width:100%;min-width:0;background:var(--ml-bg);color:var(--ml-text);border:1px solid var(--ml-line);border-radius:.55em;padding:.8em;font:inherit;line-height:1.6}
+.sound-studio .sound-field textarea{resize:vertical;min-height:5em}
+.sound-field input[type=range]{width:100%;max-width:none;accent-color:var(--ml-accent);cursor:pointer}
+.sound-field input[type=checkbox]{align-self:flex-start;accent-color:var(--ml-accent)}
+.sound-field input[type=file]{font-size:.8em!important;padding:.4em!important}
+.sound-field input[type=file]::file-selector-button{background:var(--ml-soft);color:var(--ml-text);border:0;padding:.5em;border-radius:.3em;margin-inline-end:.5em;cursor:pointer}
+.sound-inline{display:flex;gap:var(--sound-space);align-items:center;flex-wrap:wrap}
+.sound-inline>.sound-field{flex-basis:8em}
+.sound-sample{background:var(--ml-soft);border-radius:.65em;padding:1em;margin-block:1em}
+.sound-sample>strong{font-size:.95em;font-weight:500}
+.sound-sample audio{display:block;width:100%;height:2.5em;margin-block:.8em;color-scheme:dark}
+.sound-studio .sound-generate{width:100%;font-size:1em;min-height:3.3em;margin-block:.5em}
+.sound-track{border-block-end:1px solid var(--ml-line);padding-block:1em}
+.sound-track:first-child{padding-block-start:0}
+.sound-track-heading{display:flex;align-items:center;gap:.7em;flex-wrap:wrap}
+.sound-track-heading>strong{font-size:1em;font-weight:600}
+.sound-track-heading>p{flex:1;color:var(--ml-muted);font-size:.8em;margin:0}
+.sound-track .audio-wave{display:block;width:100%;min-width:0;max-width:none;height:2.3em;margin-block:.65em;color:var(--ml-accent)}
+.sound-track[data-muted=true] .audio-wave{opacity:.25}
+.sound-track-heading .ml-button[aria-pressed=true]{border-color:var(--ml-accent);color:var(--ml-accent);background:var(--ml-soft)}
+.sound-track-tools{display:flex;gap:var(--sound-space);align-items:center;flex-wrap:wrap}
+.sound-track-tools>.sound-field{margin:0;flex:1;min-width:5em}
+.sound-track-tools>.ml-button[aria-pressed=true]{background:var(--ml-accent);color:var(--ml-ink)}
+.sound-export{margin-block-start:calc(var(--sound-space)*2)}
+.sound-export-actions{display:flex;align-items:center;gap:var(--sound-space);flex-wrap:wrap}
+.sound-export-actions>.sound-field{flex-basis:18em}
+.sound-feedback{padding:1em;background:var(--ml-soft);border-inline-start:.2em solid var(--ml-accent);border-radius:.4em;overflow-wrap:anywhere}
+.sound-disclosure{border-block-start:1px solid var(--ml-line);margin-block-start:1.5em;padding-block:1em}
+.sound-disclosure>summary{font-size:.9em;color:var(--ml-muted);cursor:pointer}
+.sound-advanced{padding-block:1em}
+.sound-studio :is(button,input,select,textarea,a):focus-visible{outline:2px solid var(--ml-accent);outline-offset:3px}
+@media(max-width:850px){.sound-layout{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:580px){.sound-studio{font-size:13px}.sound-studio .sound-heading{align-items:flex-start;flex-direction:column}.sound-card{padding:1.15em}.sound-export-actions>.ml-button{flex:1}.sound-inline>.ml-button{flex-grow:1}}

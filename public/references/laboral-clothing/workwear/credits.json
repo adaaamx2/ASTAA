@@ -1,0 +1,55 @@
+{
+  "note": "Metraje de contexto de trabajo; no es catálogo de prendas verificado de Laboral Clothing. Logo proporcionado por el usuario.",
+  "clips": [
+    {
+      "id": 1436,
+      "name": "workers",
+      "page": "https://mixkit.co/free-stock-video/two-construction-workers-1436/",
+      "in": 1,
+      "duration": 8,
+      "file": "/references/laboral-clothing/workwear/workers.mp4",
+      "url": "https://assets.mixkit.co/videos/1436/1436-1080.mp4",
+      "license": "Mixkit Stock Video Free License"
+    },
+    {
+      "id": 1439,
+      "name": "plans",
+      "page": "https://mixkit.co/free-stock-video/pointing-to-blueprints-1439/",
+      "in": 2,
+      "duration": 5,
+      "file": "/references/laboral-clothing/workwear/plans.mp4",
+      "url": "https://assets.mixkit.co/videos/1439/1439-1080.mp4",
+      "license": "Mixkit Stock Video Free License"
+    },
+    {
+      "id": 1445,
+      "name": "measure",
+      "page": "https://mixkit.co/free-stock-video/a-person-measures-a-block-of-wood-for-construction-1445/",
+      "in": 2,
+      "duration": 5,
+      "file": "/references/laboral-clothing/workwear/measure.mp4",
+      "url": "https://assets.mixkit.co/videos/1445/1445-1080.mp4",
+      "license": "Mixkit Stock Video Free License"
+    },
+    {
+      "id": 777,
+      "name": "drill",
+      "page": "https://mixkit.co/free-stock-video/drilling-holes-into-wood-777/",
+      "in": 4,
+      "duration": 5,
+      "file": "/references/laboral-clothing/workwear/drill.mp4",
+      "url": "https://assets.mixkit.co/videos/777/777-1080.mp4",
+      "license": "Mixkit Stock Video Free License"
+    },
+    {
+      "id": 771,
+      "name": "workshop",
+      "page": "https://mixkit.co/free-stock-video/a-carpenter-working-at-his-workshop-771/",
+      "in": 5,
+      "duration": 6,
+      "file": "/references/laboral-clothing/workwear/workshop.mp4",
+      "url": "https://assets.mixkit.co/videos/771/771-1080.mp4",
+      "license": "Mixkit Stock Video Free License"
+    }
+  ]
+}

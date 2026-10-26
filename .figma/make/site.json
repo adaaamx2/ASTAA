@@ -1,0 +1,10 @@
+{
+  "description": "Creates professional 10-second vertical motion graphics showcasing Discord stats and data to effectively explain and promote Discord features.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

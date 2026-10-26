@@ -1,0 +1,152 @@
+/* Match the original library's charcoal surfaces and lavender accents.
+   This stylesheet only themes the editor; SVG artwork and rendered videos stay intact. */
+.p-workspace {
+  --p-ink: #f0edf5;
+  --p-muted: #a59aac;
+  --p-line: #ffffff12;
+  --p-paper: #18161c;
+  --p-bg: #111113;
+  --p-accent: #c0a2f6;
+  --p-green: #d5baf9;
+  --p-soft: #211b2a;
+  --p-accent-ink: #251533;
+  color-scheme: dark;
+}
+
+.p-workspace :is(
+  .p-project-bar, .p-direction-card,
+  .p-channel-switch, .p-channel-grid > button, .p-reference-tree,
+  .p-script-row, .p-storyboard > article, .p-timeline, .p-pack,
+  .p-sub-editor, .p-presets, .p-versions, .p-modal, .p-production-gate,
+  .p-secondary, .p-bible-form input, .p-bible-form textarea,
+  .p-sub-editor input:not([type="range"]):not([type="color"])
+) {
+  background: var(--p-paper);
+  border-color: var(--p-line);
+  color: var(--p-ink);
+}
+
+.p-workspace :is(
+  .p-credit-card, .p-notice, .p-bible-intro, .p-project-icon,
+  .p-channel-avatar, .p-chip, .p-director-note, .p-director-note > span,
+  .p-estimate, .p-undrawn, .p-table-header, .p-shot-switch,
+  .p-presets select, .p-channel-cover, .p-workspace-label span,
+  .p-secondary small, .p-status, .p-stage-bar > div > span,
+  .p-view-tabs > button > span, .p-track button, .p-profile > span
+) {
+  background: var(--p-soft);
+  border-color: var(--p-line);
+  color: var(--p-green);
+}
+
+.p-workspace :is(
+  .p-heading h1, .p-heading h2, .p-topbar b, .p-project-bar input,
+  .p-script-row input, .p-reference-tree h2, .p-estimate > strong,
+  .p-director-note strong, .p-channel-grid h2
+) {
+  color: var(--p-ink);
+}
+
+.p-workspace :is(
+  p, small, .p-brand small, .p-workspace-label, .p-nav-label,
+  .p-topbar, .p-topbar > div > span, .p-save, .p-save button,
+  .p-sidebar-projects > button, .p-profile > svg,
+  .p-project-bar > div > span, .p-project-duration, .p-project-duration small,
+  .p-card-top, .p-card-tech, .p-card-bottom, .p-card-bottom button,
+  .p-direction-tag, .p-explore-footer, .p-explore-footer input,
+  .p-approval > div > span, .p-footer, .p-footer b,
+  .p-bible-form label, .p-script-row textarea, .p-ruler,
+  .p-pack > div > span:not(.p-caption-phrase), .p-sub-editor label,
+  .p-toggle, .p-reference-tree strong, .p-versions > div
+) {
+  color: var(--p-muted);
+}
+
+.p-workspace :is(input, textarea, select) {
+  accent-color: var(--p-accent);
+  caret-color: var(--p-accent);
+}
+.p-workspace :is(input, textarea)::placeholder {
+  color: var(--p-muted);
+  opacity: .8;
+}
+.p-workspace :is(button, a, input, textarea, select):focus-visible {
+  outline-color: var(--p-accent);
+}
+.p-workspace :is(.p-brand > span, .p-primary) {
+  background: var(--p-accent);
+  border-color: var(--p-accent);
+  color: var(--p-accent-ink) !important;
+  box-shadow: none;
+}
+.p-workspace .p-primary:hover { background: #d5baf9; }
+.p-workspace :is(.p-sidebar, .p-topbar) {
+  background: var(--p-bg);
+  border-color: var(--p-line);
+}
+.p-workspace .p-legacy { margin-top: 0; }
+.p-workspace .p-credit-card + .p-legacy { margin-top: auto; }
+.p-workspace .p-credit-card > svg { color: var(--p-accent); }
+.p-workspace .p-studio-entry { margin-bottom: 20px; }
+@media(max-width:650px){.p-workspace .p-studio-entry{font-size:0!important;gap:0;padding:10px 6px}}
+.p-workspace .p-heading h1 { font-family: inherit; font-weight: 500; }
+.p-workspace .p-secondary { color: var(--p-green) !important; }
+.p-workspace :is(.p-secondary:hover, .p-sidebar nav > button:hover) {
+  background: var(--p-soft);
+}
+.p-workspace :is(
+  .p-sidebar nav > button.active, .p-card-info > button.chosen,
+  .p-shot-switch > button.active, .p-stage-bar .current > span,
+  .p-stage-bar .done > span
+) {
+  background: var(--p-soft);
+  border-color: var(--p-accent);
+  color: var(--p-green);
+}
+.p-workspace :is(
+  .p-sidebar nav > button, .p-shot-switch > button,
+  .p-legacy, .p-sidebar-projects > button.selected,
+  .p-versions > div button, .p-stage-bar .current, .p-stage-bar .done,
+  .p-zoom, .p-director-note > button
+) { color: var(--p-green) !important; }
+.p-workspace .p-sidebar nav > button small {
+  background: var(--p-soft);
+  color: var(--p-green);
+}
+.p-workspace .p-view-tabs { border-color: var(--p-line); }
+.p-workspace .p-view-tabs > button { color: var(--p-muted); }
+.p-workspace .p-view-tabs > button.active {
+  color: var(--p-green);
+  border-color: var(--p-accent);
+}
+.p-workspace :is(.p-direction-card.selected, .p-pack.selected) {
+  border-color: var(--p-accent);
+  box-shadow: 0 0 0 2px #c0a2f61a;
+}
+.p-workspace .p-direction-card:hover { box-shadow: 0 8px 28px #0003; }
+.p-workspace .p-card-info > button {
+  background: var(--p-soft);
+  border-color: var(--p-line);
+  color: var(--p-green);
+}
+.p-workspace :is(
+  .p-card-bottom, .p-approval, .p-variant, .p-credit-card > span,
+  .p-reference-tree > div, .p-modal-frames .p-frame
+) { border-color: var(--p-line); }
+.p-workspace .p-stage-bar b { background: var(--p-line); }
+.p-workspace :is(.p-sidebar-projects > button i, .p-save > i, .p-status i) {
+  background: var(--p-accent);
+}
+.p-workspace .p-credit-card::after { border-color: var(--p-line); box-shadow: none; }
+.p-workspace .p-warning {
+  background: #2b231b;
+  border-color: #e1b77833;
+  color: #e1c394;
+}
+.p-workspace .p-save.error { color: #eca9a0; }
+.p-workspace .p-toast { background: var(--p-soft); color: var(--p-ink); }
+.p-workspace .p-toast > button { color: var(--p-green); }
+.p-modal-backdrop { background: #07050dcc; }
+.p-modal-backdrop .p-modal { background: #18161c; color: #f0edf5; border-color: #ffffff12; }
+.p-modal-backdrop :is(.p-modal h2, .p-modal header > button) { color: #d5baf9; }
+.p-modal-backdrop .p-primary { background: #c0a2f6; color: #251533 !important; border-color: #c0a2f6; }

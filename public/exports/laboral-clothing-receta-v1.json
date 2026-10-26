@@ -1,0 +1,61 @@
+{
+  "id": "laboral-clothing",
+  "duration": 18,
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "identityStatus": "provisional",
+  "palette": {
+    "paper": "#eeeae2",
+    "ink": "#141412",
+    "soft": "#ccc7bd",
+    "white": "#faf9f6"
+  },
+  "slogan": "Viste lo que eres.",
+  "narration": "Tu día tiene su propio ritmo. Tu estilo, también. Descubre Laboral Clothing: una forma de vestir que empieza en ti. Cada día, a tu manera. Laboral Clothing. Viste lo que eres.",
+  "sfx": "Diseño sonoro editorial de moda, 18 s: 0 s roce de tela; 3.4 s transición de aire corta; 6.6 s tres golpes suaves de papel para los paneles; 10.5 s barrido preciso; 14.7 s impacto de marca discreto y cola breve. Sin voces ni música.",
+  "music": "Instrumental editorial de moda, 18 segundos, house minimalista elegante a 110 BPM, bajo limpio, percusión seca y ligera, textura cálida. Entrada inmediata, cambios suaves a 3.4, 6.6 y 10.5 segundos, resolución de marca a 14.7 y final limpio. Sin voces ni letras; dejar espacio para una locución española.",
+  "photos": [
+    "/references/laboral-clothing/look-one.jpg",
+    "/references/laboral-clothing/look-two.jpg",
+    "/references/laboral-clothing/fabric.jpg"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3.4,
+      "title": "Tu ritmo",
+      "voice": "Tu día tiene su propio ritmo.",
+      "visual": "Modelo de apoyo en panel editorial, tipografía de gran formato y avance de cámara suave."
+    },
+    {
+      "start": 3.4,
+      "end": 6.6,
+      "title": "Tu estilo",
+      "voice": "Tu estilo, también.",
+      "visual": "Cambio a negro, retrato editorial, desplazamiento de palabras y barrido de luz."
+    },
+    {
+      "start": 6.6,
+      "end": 10.5,
+      "title": "Hazlo tuyo",
+      "voice": "Descubre Laboral Clothing: una forma de vestir que empieza en ti.",
+      "visual": "Tríptico de prendas de referencia y textura de tejido con entradas escalonadas."
+    },
+    {
+      "start": 10.5,
+      "end": 14.7,
+      "title": "A tu manera",
+      "voice": "Cada día, a tu manera.",
+      "visual": "Fotografía y texto a dos columnas, acercamiento lento y transición deslizante."
+    },
+    {
+      "start": 14.7,
+      "end": 18,
+      "title": "Laboral Clothing",
+      "voice": "Laboral Clothing. Viste lo que eres.",
+      "visual": "Wordmark tipográfico provisional y eslogan español sobre negro texturizado."
+    }
+  ],
+  "note": "Concepto provisional. Sustituir fotografías, logotipo y paleta por los materiales oficiales antes de publicar como campaña final. No se han generado voz, SFX ni música."
+}

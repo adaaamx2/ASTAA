@@ -1,0 +1,180 @@
+{
+  "samples": [
+    {
+      "scene": 1,
+      "time": 0,
+      "filename": "scene-1-first.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-1-first.png"
+    },
+    {
+      "scene": 1,
+      "time": 1.5,
+      "filename": "scene-1-middle.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-1-middle.png"
+    },
+    {
+      "scene": 1,
+      "time": 2.9833333333333334,
+      "filename": "scene-1-last.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-1-last.png"
+    },
+    {
+      "scene": 2,
+      "time": 3,
+      "filename": "scene-2-first.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-2-first.png"
+    },
+    {
+      "scene": 2,
+      "time": 6.5,
+      "filename": "scene-2-middle.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-2-middle.png"
+    },
+    {
+      "scene": 2,
+      "time": 9.983333333333333,
+      "filename": "scene-2-last.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-2-last.png"
+    },
+    {
+      "scene": 3,
+      "time": 10,
+      "filename": "scene-3-first.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-3-first.png"
+    },
+    {
+      "scene": 3,
+      "time": 14,
+      "filename": "scene-3-middle.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-3-middle.png"
+    },
+    {
+      "scene": 3,
+      "time": 17.983333333333334,
+      "filename": "scene-3-last.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-3-last.png"
+    },
+    {
+      "scene": 4,
+      "time": 18,
+      "filename": "scene-4-first.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-4-first.png"
+    },
+    {
+      "scene": 4,
+      "time": 23.5,
+      "filename": "scene-4-middle.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-4-middle.png"
+    },
+    {
+      "scene": 4,
+      "time": 28.983333333333334,
+      "filename": "scene-4-last.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-4-last.png"
+    },
+    {
+      "scene": 5,
+      "time": 29,
+      "filename": "scene-5-first.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-5-first.png"
+    },
+    {
+      "scene": 5,
+      "time": 34.5,
+      "filename": "scene-5-middle.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-5-middle.png"
+    },
+    {
+      "scene": 5,
+      "time": 39.983333333333334,
+      "filename": "scene-5-last.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-5-last.png"
+    },
+    {
+      "scene": 6,
+      "time": 40,
+      "filename": "scene-6-first.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-6-first.png"
+    },
+    {
+      "scene": 6,
+      "time": 44,
+      "filename": "scene-6-middle.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-6-middle.png"
+    },
+    {
+      "scene": 6,
+      "time": 47.983333333333334,
+      "filename": "scene-6-last.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-6-last.png"
+    },
+    {
+      "scene": 7,
+      "time": 48,
+      "filename": "scene-7-first.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-7-first.png"
+    },
+    {
+      "scene": 7,
+      "time": 52.5,
+      "filename": "scene-7-middle.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-7-middle.png"
+    },
+    {
+      "scene": 7,
+      "time": 56.983333333333334,
+      "filename": "scene-7-last.png",
+      "visualReview": "inspected",
+      "url": "/exports/finn-qa/scene-7-last.png"
+    }
+  ],
+  "geometry": {
+    "rate": 10,
+    "frames": 570,
+    "findings": []
+  },
+  "audio": "absent-not-reviewed",
+  "motion": "not-automatically-certified",
+  "review": "needs-review-not-approved",
+  "engine": "finn-animatic-2",
+  "provenance": "Browser preview using the same pure frame composition as Remotion; not decoded MP4 samples",
+  "pack": "pop",
+  "visualFindings": [
+    {
+      "scene": 3,
+      "severity": "review",
+      "finding": "El mapa conserva proximidad perro/gato, pero algunas etiquetas numéricas quedan demasiado próximas a otras etiquetas; requiere limpieza antes de aprobar."
+    },
+    {
+      "scene": 7,
+      "severity": "review",
+      "finding": "La pose y el titular finales no coinciden exactamente con el primer encuadre. El loop visual exacto sigue pendiente."
+    }
+  ],
+  "limitations": [
+    "La cámara, actuación y transiciones son un animatic, no la dirección final completa del plan.",
+    "El análisis geométrico muestrea texto, no certifica solapes entre todas las formas ni movimiento.",
+    "No se han revisado auditivamente voz ni sincronía: no existe audio.",
+    "Las otras tres variantes no tienen todavía revisión visual exhaustiva."
+  ]
+}
